@@ -24,15 +24,14 @@ window.onload = function() {
 
   let excuse =
     randomElement(who) +
-    "" +
+    " " +
     randomElement(action) +
-    "" +
+    " " +
     randomElement(what) +
-    "" +
+    " " +
     randomElement(when);
 
-  console.log("start", excuse);
+  console.log(excuse);
+  const randompElement = document.getElementsByTagName("p");
+  randompElement[0].innerText = excuse;
 };
-
-const randompElement = document.getElementsByTagName("p");
-randompElement(0).innerText = excuse;
