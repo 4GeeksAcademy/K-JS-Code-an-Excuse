@@ -34,5 +34,5 @@ window.onload = function() {
   console.log("start", excuse);
 };
 
-const randomElement = document.getElementsByTagName("p");
-randomElement(0).innerText = excuse;
+const randompElement = document.getElementsByTagName("p");
+randompElement(0).innerText = excuse;
