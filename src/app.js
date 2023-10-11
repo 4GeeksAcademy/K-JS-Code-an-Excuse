@@ -18,18 +18,18 @@ window.onload = function() {
     "while I was praying"
   ];
 
-  function randomElement(array) {
+  function randomItem(array) {
     return array[Math.floor(Math.random() * array.length)];
   }
 
   let excuse =
-    randomElement(who) +
+    randomItem(who) +
     " " +
-    randomElement(action) +
+    randomItem(action) +
     " " +
-    randomElement(what) +
+    randomItem(what) +
     " " +
-    randomElement(when);
+    randomItem(when);
 
   console.log(excuse);
   const randompElement = document.getElementsByTagName("p");
